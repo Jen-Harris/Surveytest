@@ -1,0 +1,71 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans+Condensed:300" rel="stylesheet">
+  </head>
+  <body>
+    <br>
+    <h1> Survey Form </h1>
+    <br>
+<div class="container">
+  
+    <h3> Thank you for taking the time to fill in our short survey, your input is really valuable to us. </h3>
+    
+  <h5> First a few basic details to help us get to know you better </h5>
+    
+    <div class="basicInfo">
+      <label id="name-label" for='name'> *Name </label>
+      <input autofocus type="text" name="name" id="name" class='input-field' placeholder="Enter your name" required>
+      
+      <br>
+      
+      <label id="email-label" for='email'> *Email  </label>
+      <input autofocus type="text" name="email" id="email" class='input-field' placeholder="Enter your email" required>
+      
+      <br>
+      
+        <label id="email-label" for='age'> *Age </label>
+      <input autofocus type="text" name="age" id="age" class='input-field' placeholder="Enter your age" required>
+    </div>
+    
+    
+  <h5> Now 3 questions & you're all done! </h5>
+    <div class=question>
+<STRONG class="question">Question 1:</STRONG>Do you like apples?
+<INPUT TYPE="radio" NAME="q1" VALUE="y">Yes
+<INPUT TYPE="radio" NAME="q1" VALUE="n">No
+  </div>
+  
+  
+  <div class="question">
+  <STRONG> Question 2: </STRONG> How much do you like apples?
+  <input type="radio" name="q2" value="No"> Not at all
+  <input type="radio" name="q2" value="OK"> Apples are OK
+  <input type="radio" name="q2" value="like"> I like them
+  <input type="radio" name="q2" value="love"> I love them!
+  </div>
+ 
+  <div class="question">
+  <STRONG class="question"> Question 3: </STRONG> What is your favourite apple? 
+  <select name=favourite>
+    <option value="1"> </option>
+    <option value "2"> Pink Lady </option>
+    <option value "3"> Jazz </option>
+    <option value "4"> Braeburn </option>
+    <option value "5"> Granny Smith </option>
+    <option value "6"> None of the above </option>
+    <select>
+  
+  </div>
+  <br>
+        <div class="submit">
+          <button class="submit">Submit</button>
+        </div>
+ <br>
+    </div>
+  <br>
+  <h1> Thank you for your input. </h1>
+  <br>
+</body>
+</html>

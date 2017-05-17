@@ -1,0 +1,84 @@
+body{
+  background-color: pink;
+}
+
+.container {
+  text-align: center;
+    background-color: hsl(350, 100%, 98%);
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+h1{
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+STRONG, input, #email-label, #name-label, .question{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: darkslategrey;
+}
+
+h5{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+    color: darkslategray;
+}
+
+.submit{
+  font-size: 30px;
+  font-family:'Open Sans Condensed', sans-serif;
+   background-color: pink;
+    border: none;
+    color: white;
+  border-radius: 7%;
+    text-align: center;
+  
+    display: inline-block;
+    font-size: 20px; 
+    cursor: pointer;
+  overflow: hidden;
+}
+
+.submit:hover {
+   background-color: mistyrose; 
+    color: darkslategrey;
+  border-radius: 7%;
+}
+
+.submit:active{
+   background-color: pink; 
+    color: darkslategrey;
+  border-radius: 7%;
+}
+
+#name-label, #email-label{
+      display: inline-block;
+    text-align: right;
+    padding: 10px;   
+    margin-top: 5px;
+}
+
+#name, #email, #age {
+  display: inline-block;
+    text-align: left;
+    
+}
+
+.question{
+  padding: 10px;
+}
